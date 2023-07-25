@@ -1,0 +1,106 @@
+
+
+body{
+    background-image: url(/public/images/escritorio.jpg);
+    background-size: cover;
+    min-height: 500px;
+}
+.profile-area{
+    padding: 30px 0;
+}
+.profile-area {
+    padding: 30px 0 0;
+}
+.card{
+    box-shadow: 0 0 30px rgba(0,0,0,0.5);
+    overflow: hidden;
+    border-radius: 15px;
+}
+.img1 {
+    border: 1px;
+}
+.img1 img{
+    height: 175px;
+    width: 100%;
+  
+}
+.img2 img{
+    position: relative;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    z-index: 1;
+    width: 217px;
+    height: 217px;
+    border-radius: 50%;
+    border: 7px solid #ff6e57bf;
+    margin-top: -150px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.card:hover .img2 img{
+    border-color: darkmagenta;
+    transition: .7s;
+}
+.main-text{
+    padding: 10px 0;
+    text-align:center;
+}
+.main-text h2{
+    margin: 0 0 15px;
+}
+.main-text b {
+    font-size: 18px;
+}
+.parrafo1 {
+    font-size: 20px;
+    font-weight: lighter;
+    margin: 10px auto;
+    font-size: 18px;
+}
+.parrafo1 img{
+    vertical-align: inherit;
+}
+.parrafo2 {
+    font-size: 16px;
+    margin: 0 30px;
+    text-align: justify;
+}
+ul{
+    list-style: none;
+    list-style: none;
+    display: flex;
+    gap: 12px;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+.socials{
+    display: flex;
+    place-content: space-evenly;
+    padding: 20px;
+    background: rgb(250,105,86);
+    background: linear-gradient(90deg, rgba(250,105,86,1) 0%, rgba(144,43,84,1) 35%, rgba(99,17,83,1) 100%);
+   
+}
+.socials a:hover{
+    animation: myAnim 1s ease 0s 1 normal none;  
+}
+@keyframes myAnim {
+	0% {
+		box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
+		transform: scale(1);
+	}
+
+	100% {
+		box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.35);
+		transform: scale(1.1);
+	}
+}
+.ico img{
+    width: 24px;
+    height: 24px;
+}
