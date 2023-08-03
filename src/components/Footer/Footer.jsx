@@ -12,8 +12,9 @@ import './footer.css'
         <div className="footer">
             <div className="socialMedia"> 
                <a href="https://www.linkedin.com/in/virginia-aymar%C3%A1-del-roc%C3%ADo-romero/" target="_blank"><LinkedinIcon/></a> 
-               <a href="https://github.com/VirAyma21" target="_blank"><GitHubIcon/></a> 
-                <WhatsApp/>
+               <a href="https://github.com/VirAyma21" target="_blank"><GitHubIcon/></a>
+               <a href="https://api.whatsapp.com/send?phone=543795000095" target="_blank"><WhatsApp/></a>
+                
             </div> 
             <p> &copy; 2023 Virginia Romero </p>
         </div>
