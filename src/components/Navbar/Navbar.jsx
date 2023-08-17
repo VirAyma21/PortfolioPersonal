@@ -39,8 +39,8 @@ const Navbar= () =>{
             </div>
             <div className="links">
              <Link to='/' >Home</Link>
-             <Link to='/projects' >MiS Proyectos</Link>
-             <Link to='/' onClick={modalConstruction}>Contacto</Link>
+             <Link to='/projects' >Mis Proyectos</Link>
+             <Link to='/contacto' >Contacto</Link>
             </div>
         </div>
     )

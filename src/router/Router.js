@@ -5,6 +5,8 @@ import PageProjects from '../pages/PageProjects';
 import Layout from "../components/Layout/Layout";
 import Home from '../pages/Home';
 
+import PageContacto from '../pages/PageContacto'
+
 
 
 const Router = () =>{
@@ -16,6 +18,7 @@ const Router = () =>{
         <Route path="/" element={<Layout />}>
         <Route index element={<Home />}></Route>
         <Route path='/projects' element={<PageProjects />}></Route>
+        <Route path='/contacto' element={<PageContacto/>}></Route>
         </Route>
         </Routes>
         

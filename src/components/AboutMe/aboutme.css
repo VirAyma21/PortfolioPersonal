@@ -1,9 +1,12 @@
 
 
+  @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
 body{
     background-image: url(/public/images/escritorio.jpg);
     background-size: cover;
     min-height: 500px;
+    font-family: 'Roboto', sans-serif;
 }
 .profile-area{
     padding: 30px 0;
@@ -66,6 +69,7 @@ body{
     font-size: 16px;
     margin: 0 30px;
     text-align: justify;
+    font-weight: 700;
 }
 ul{
     list-style: none;
